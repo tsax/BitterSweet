@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACCE8781B16EEF300523D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE8771B16EEF300523D82 /* AppDelegate.swift */; };
+		DACCE87A1B16EEF300523D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE8791B16EEF300523D82 /* ViewController.swift */; };
+		DACCE87D1B16EEF300523D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACCE87B1B16EEF300523D82 /* Main.storyboard */; };
+		DACCE87F1B16EEF300523D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACCE87E1B16EEF300523D82 /* Images.xcassets */; };
+		DACCE8821B16EEF300523D82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACCE8801B16EEF300523D82 /* LaunchScreen.xib */; };
+		DACCE88E1B16EEF300523D82 /* BitterSweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE88D1B16EEF300523D82 /* BitterSweetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACCE8881B16EEF300523D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACCE86A1B16EEF200523D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACCE8711B16EEF300523D82;
+			remoteInfo = BitterSweet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DACCE8721B16EEF300523D82 /* BitterSweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitterSweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCE8761B16EEF300523D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACCE8771B16EEF300523D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACCE8791B16EEF300523D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACCE87C1B16EEF300523D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACCE87E1B16EEF300523D82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DACCE8811B16EEF300523D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DACCE8871B16EEF300523D82 /* BitterSweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitterSweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCE88C1B16EEF300523D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACCE88D1B16EEF300523D82 /* BitterSweetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitterSweetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACCE86F1B16EEF300523D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE8841B16EEF300523D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACCE8691B16EEF200523D82 = {
+			isa = PBXGroup;
+			children = (
+				DACCE8741B16EEF300523D82 /* BitterSweet */,
+				DACCE88A1B16EEF300523D82 /* BitterSweetTests */,
+				DACCE8731B16EEF300523D82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACCE8731B16EEF300523D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE8721B16EEF300523D82 /* BitterSweet.app */,
+				DACCE8871B16EEF300523D82 /* BitterSweetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACCE8741B16EEF300523D82 /* BitterSweet */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE8771B16EEF300523D82 /* AppDelegate.swift */,
+				DACCE8791B16EEF300523D82 /* ViewController.swift */,
+				DACCE87B1B16EEF300523D82 /* Main.storyboard */,
+				DACCE87E1B16EEF300523D82 /* Images.xcassets */,
+				DACCE8801B16EEF300523D82 /* LaunchScreen.xib */,
+				DACCE8751B16EEF300523D82 /* Supporting Files */,
+			);
+			path = BitterSweet;
+			sourceTree = "<group>";
+		};
+		DACCE8751B16EEF300523D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE8761B16EEF300523D82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACCE88A1B16EEF300523D82 /* BitterSweetTests */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE88D1B16EEF300523D82 /* BitterSweetTests.swift */,
+				DACCE88B1B16EEF300523D82 /* Supporting Files */,
+			);
+			path = BitterSweetTests;
+			sourceTree = "<group>";
+		};
+		DACCE88B1B16EEF300523D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE88C1B16EEF300523D82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACCE8711B16EEF300523D82 /* BitterSweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCE8911B16EEF300523D82 /* Build configuration list for PBXNativeTarget "BitterSweet" */;
+			buildPhases = (
+				DACCE86E1B16EEF300523D82 /* Sources */,
+				DACCE86F1B16EEF300523D82 /* Frameworks */,
+				DACCE8701B16EEF300523D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitterSweet;
+			productName = BitterSweet;
+			productReference = DACCE8721B16EEF300523D82 /* BitterSweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACCE8861B16EEF300523D82 /* BitterSweetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCE8941B16EEF300523D82 /* Build configuration list for PBXNativeTarget "BitterSweetTests" */;
+			buildPhases = (
+				DACCE8831B16EEF300523D82 /* Sources */,
+				DACCE8841B16EEF300523D82 /* Frameworks */,
+				DACCE8851B16EEF300523D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACCE8891B16EEF300523D82 /* PBXTargetDependency */,
+			);
+			name = BitterSweetTests;
+			productName = BitterSweetTests;
+			productReference = DACCE8871B16EEF300523D82 /* BitterSweetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACCE86A1B16EEF200523D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tushar Saxena";
+				TargetAttributes = {
+					DACCE8711B16EEF300523D82 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DACCE8861B16EEF300523D82 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DACCE8711B16EEF300523D82;
+					};
+				};
+			};
+			buildConfigurationList = DACCE86D1B16EEF200523D82 /* Build configuration list for PBXProject "BitterSweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACCE8691B16EEF200523D82;
+			productRefGroup = DACCE8731B16EEF300523D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACCE8711B16EEF300523D82 /* BitterSweet */,
+				DACCE8861B16EEF300523D82 /* BitterSweetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACCE8701B16EEF300523D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE87D1B16EEF300523D82 /* Main.storyboard in Resources */,
+				DACCE8821B16EEF300523D82 /* LaunchScreen.xib in Resources */,
+				DACCE87F1B16EEF300523D82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE8851B16EEF300523D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACCE86E1B16EEF300523D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE87A1B16EEF300523D82 /* ViewController.swift in Sources */,
+				DACCE8781B16EEF300523D82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACCE8831B16EEF300523D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE88E1B16EEF300523D82 /* BitterSweetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACCE8891B16EEF300523D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACCE8711B16EEF300523D82 /* BitterSweet */;
+			targetProxy = DACCE8881B16EEF300523D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACCE87B1B16EEF300523D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE87C1B16EEF300523D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACCE8801B16EEF300523D82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE8811B16EEF300523D82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACCE88F1B16EEF300523D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACCE8901B16EEF300523D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACCE8921B16EEF300523D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitterSweet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DACCE8931B16EEF300523D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitterSweet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DACCE8951B16EEF300523D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitterSweetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitterSweet.app/BitterSweet";
+			};
+			name = Debug;
+		};
+		DACCE8961B16EEF300523D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitterSweetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitterSweet.app/BitterSweet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACCE86D1B16EEF200523D82 /* Build configuration list for PBXProject "BitterSweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE88F1B16EEF300523D82 /* Debug */,
+				DACCE8901B16EEF300523D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCE8911B16EEF300523D82 /* Build configuration list for PBXNativeTarget "BitterSweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE8921B16EEF300523D82 /* Debug */,
+				DACCE8931B16EEF300523D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DACCE8941B16EEF300523D82 /* Build configuration list for PBXNativeTarget "BitterSweetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE8951B16EEF300523D82 /* Debug */,
+				DACCE8961B16EEF300523D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACCE86A1B16EEF200523D82 /* Project object */;
+}
