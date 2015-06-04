@@ -13,6 +13,9 @@
 		DACCE87F1B16EEF300523D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACCE87E1B16EEF300523D82 /* Images.xcassets */; };
 		DACCE8821B16EEF300523D82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACCE8801B16EEF300523D82 /* LaunchScreen.xib */; };
 		DACCE88E1B16EEF300523D82 /* BitterSweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE88D1B16EEF300523D82 /* BitterSweetTests.swift */; };
+		DACCE8981B18270400523D82 /* LookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE8971B18270400523D82 /* LookViewController.swift */; };
+		DACCE89A1B182D0F00523D82 /* TastedChocolateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE8991B182D0F00523D82 /* TastedChocolateViewController.swift */; };
+		DACCE89C1B18357100523D82 /* SelectedChocolateDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE89B1B18357100523D82 /* SelectedChocolateDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		DACCE8871B16EEF300523D82 /* BitterSweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitterSweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACCE88C1B16EEF300523D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACCE88D1B16EEF300523D82 /* BitterSweetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitterSweetTests.swift; sourceTree = "<group>"; };
+		DACCE8971B18270400523D82 /* LookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookViewController.swift; sourceTree = "<group>"; };
+		DACCE8991B182D0F00523D82 /* TastedChocolateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TastedChocolateViewController.swift; sourceTree = "<group>"; };
+		DACCE89B1B18357100523D82 /* SelectedChocolateDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedChocolateDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				DACCE8771B16EEF300523D82 /* AppDelegate.swift */,
 				DACCE8791B16EEF300523D82 /* ViewController.swift */,
 				DACCE87B1B16EEF300523D82 /* Main.storyboard */,
+				DACCE89B1B18357100523D82 /* SelectedChocolateDetailsViewController.swift */,
+				DACCE8991B182D0F00523D82 /* TastedChocolateViewController.swift */,
+				DACCE8971B18270400523D82 /* LookViewController.swift */,
 				DACCE87E1B16EEF300523D82 /* Images.xcassets */,
 				DACCE8801B16EEF300523D82 /* LaunchScreen.xib */,
 				DACCE8751B16EEF300523D82 /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACCE89A1B182D0F00523D82 /* TastedChocolateViewController.swift in Sources */,
 				DACCE87A1B16EEF300523D82 /* ViewController.swift in Sources */,
+				DACCE89C1B18357100523D82 /* SelectedChocolateDetailsViewController.swift in Sources */,
+				DACCE8981B18270400523D82 /* LookViewController.swift in Sources */,
 				DACCE8781B16EEF300523D82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

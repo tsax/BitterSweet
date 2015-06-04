@@ -10,9 +10,14 @@ import UIKit
 
 class SelectedChocolateDetailsViewController: UIViewController {
 
+    @IBOutlet weak var ChocolateName: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let chocolateName: String = defaults.objectForKey("selectedChocolateName") as? String
+        {
+            ChocolateName.text = chocolateName
+        }
         // Do any additional setup after loading the view.
     }
 

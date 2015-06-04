@@ -8,14 +8,39 @@
 
 import UIKit
 
-class TastedChocolateViewController: UIViewController {
+class TastedChocolateViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    var namesOfChocolates = ["Michel Cluizel", "Jacques Torres", "Domori", "Valrhona"]
+    
+    @IBOutlet weak var tastedChocolatesTableView: UITableView!
+    
     override func viewDidLoad() {
+        tastedChocolatesTableView.delegate = self
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return namesOfChocolates.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+        var cell:UITableViewCell = tastedChocolatesTableView.dequeueReusableCellWithIdentifier("tastedChocolateCell") as! UITableViewCell
+        
+        cell.textLabel?.text = self.namesOfChocolates[indexPath.row]
+        
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(namesOfChocolates[indexPath.row], forKey: "selectedChocolateName")
+        performSegueWithIdentifier("tastedChocolateDetailsSegue", sender: nil)
 
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

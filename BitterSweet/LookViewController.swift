@@ -10,6 +10,37 @@ import UIKit
 
 class LookViewController: UIViewController {
 
+    @IBOutlet weak var MatteOrGlossy: UISegmentedControl!
+    @IBOutlet weak var PowderyCoating: UISwitch!
+    @IBOutlet weak var IrregularCoating: UISwitch!
+    
+    @IBAction func NextClick(sender: AnyObject) {
+        var matteOrGlossy: String
+        switch(MatteOrGlossy.selectedSegmentIndex)
+        {
+        case 0: matteOrGlossy = "Matte 1"
+            break
+        case 1: matteOrGlossy = "Matte 2"
+            break
+        case 2: matteOrGlossy = "Neither"
+            break
+        case 3: matteOrGlossy = "Glossy 2"
+            break
+        case 4: matteOrGlossy = "Glossy 1"
+            break
+        default: matteOrGlossy = "Neither"
+        }
+        
+        var whitePowderyCoating = PowderyCoating.selected
+        var irregularWhiteCoating = IrregularCoating.selected
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(matteOrGlossy, forKey: "matteOrGlossy")
+        defaults.setBool(whitePowderyCoating, forKey: "whitePowderyCoating")
+        defaults.setBool(irregularWhiteCoating, forKey: "irregularWhiteCoating")
+        
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
